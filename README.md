@@ -10,8 +10,10 @@ This repository is intentionally small. Pinokio installs this launcher repo firs
 
 - Clones the app repo into `app/`
 - Installs Node dependencies with `pnpm install`
-- Creates the backend helper environment with `uv sync --frozen --extra dev`
+- Creates `app/backend/.venv` with Python 3.10 and installs `imageio-ffmpeg`
 - Starts the app with `pnpm dev`
+
+This launcher intentionally avoids syncing the full upstream backend project because that project targets newer Python versions than many Pinokio installs ship by default. The desktop runtime only needs the helper `ffmpeg` package from `backend/.venv`, so the launcher keeps that environment lightweight and Python 3.10 compatible.
 
 ## Before using
 
