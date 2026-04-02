@@ -1,0 +1,21 @@
+{
+  "links": [
+    {
+      "title": "Comfy LTX Desktop",
+      "links": [
+        {
+          "title": "App Repo",
+          "value": "https://github.com/ArtDesignAwesome/Comfy-LTX-Desktop_INT8_GGUF-SUPPORT"
+        },
+        {
+          "title": "Upstream",
+          "value": "https://github.com/richservo/Comfy-LTX-Desktop"
+        },
+        {
+          "title": "ComfyUI",
+          "value": "https://github.com/comfyanonymous/ComfyUI"
+        }
+      ]
+    }
+  ]
+}
